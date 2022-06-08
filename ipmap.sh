@@ -39,7 +39,7 @@ tarjetaip() {
     echo ""
 	echo ""
 	echo -e "\e[36m Escribe la dirección IP \e[0m"
-	echo -e "\e[1;32m╭─root@MHK-4-/-OVNI"
+	echo -e "\e[1;32m╭─root@MHK-4-/-"
 	read -p "╰─$ " target
 	command=$(wget https://ipapi.co/$target/yaml/ -q -O .ip)
 	echo -e "\e[36m "
