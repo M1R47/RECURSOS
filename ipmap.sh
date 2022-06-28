@@ -68,7 +68,7 @@ menuprincipal() {
 
 	elif [ $opt -eq 3 ];
 		then
-			echo -e "\e[1;33mGracias por usar OVNI "
+			echo -e "\e[1;33mGracias por usar ipmap "
 			exit
 	else
 		sleep 1
